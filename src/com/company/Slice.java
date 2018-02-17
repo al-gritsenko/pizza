@@ -2,7 +2,17 @@ package com.company;
 
 public class Slice {
 
-	// properties
+	Cell topLeft;
+	Cell bottomRight;
 
-	// methods
+	Slice (Cell topLeft, Cell bottomRight)
+	{
+		this.topLeft = topLeft;
+		this.bottomRight = bottomRight;
+	}
+
+	int getLength() {}
+
+	int getWidth() {}
+
 }
