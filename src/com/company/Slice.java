@@ -12,11 +12,11 @@ public class Slice {
 	}
 
 	int getLength() {
-	    return 0;
+	    return Math.abs(topLeft.getCell()-bottomRight.getCell());
     }
 
 	int getWidth() {
-	    return 0;
+	    return Math.abs(topLeft.getRow()-bottomRight.getRow());
     }
 
 }

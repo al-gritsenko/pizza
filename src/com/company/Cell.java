@@ -10,4 +10,14 @@ public class Cell {
 		this.row = row;
 		this.col = col;
 	}
+
+	public int getRow()
+	{
+		return row;
+	}
+
+	public int getCell()
+	{
+		return col;
+	}
 }
