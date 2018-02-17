@@ -2,8 +2,8 @@ package com.company;
 
 public class Slice {
 
-	Cell topLeft;
-	Cell bottomRight;
+	private Cell topLeft;
+	private Cell bottomRight;
 
 	Slice (Cell topLeft, Cell bottomRight)
 	{
@@ -11,8 +11,12 @@ public class Slice {
 		this.bottomRight = bottomRight;
 	}
 
-	int getLength() {}
+	int getLength() {
+	    return 0;
+    }
 
-	int getWidth() {}
+	int getWidth() {
+	    return 0;
+    }
 
 }

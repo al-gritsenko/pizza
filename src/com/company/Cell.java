@@ -2,12 +2,12 @@ package com.company;
 
 public class Cell {
 
-	int row;
-	int col;
+	private int row;
+	private int col;
 
 	Cell(int row, int col)
 	{
-		this->row = row;
-		this->col = col;
+		this.row = row;
+		this.col = col;
 	}
 }
